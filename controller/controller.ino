@@ -13,12 +13,12 @@ int servo_movement_delay_ms = 20; // time between moving by single degree
 unsigned int debounce_delay_ms = 50;
 
 /* I/O Ports */
-int startPin = 8;
-int resetPin = 9;
-int modePin = 10;
-int servoPin = 7;
-int modeOneLedPin = 11;
-int modeZeroLedPin = 12;
+int startPin = 7;
+int resetPin =5;
+int modePin = 6;
+int servoPin = 3;
+int modeOneLedPin = 2;
+int modeZeroLedPin = 4;
 
 int ledPin=4;
 
